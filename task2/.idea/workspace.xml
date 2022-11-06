@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea9d0001-ed45-4db8-83a7-ab765a0d4d57" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task1/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="TagParsesTest.getTop5Tags" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HBW6Q5mgobICJHp1BrtR6uC0do" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kostia/Documents/courses/practice1/task2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.chornobuk" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TagParsesTest.getTop5MultilineStringWithRepeatedTag">
+    <configuration name="TagParsesTest.getTop5MultilineStringWithRepeatedTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chornobuk" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.TagParsesTest" />
+      <option name="METHOD_NAME" value="getTop5MultilineStringWithRepeatedTag" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagParsesTest.getTop5TagNullArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chornobuk" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.TagParsesTest" />
+      <option name="METHOD_NAME" value="getTop5TagNullArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagParsesTest.getTop5Tags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chornobuk" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.TagParsesTest" />
+      <option name="METHOD_NAME" value="getTop5Tags" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagParsesTest.getTop5TagsEmptyTags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chornobuk" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.TagParsesTest" />
+      <option name="METHOD_NAME" value="getTop5TagsEmptyTags" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagParsesTest.getTop5TagsOneTagMultipleTimesInOneString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chornobuk" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.TagParsesTest" />
+      <option name="METHOD_NAME" value="getTop5TagsOneTagMultipleTimesInOneString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TagParsesTest.getTop5MultilineStringWithRepeatedTag" />
+        <item itemvalue="JUnit.TagParsesTest.getTop5TagsOneTagMultipleTimesInOneString" />
+        <item itemvalue="JUnit.TagParsesTest.getTop5TagsEmptyTags" />
+        <item itemvalue="JUnit.TagParsesTest.getTop5Tags" />
+        <item itemvalue="JUnit.TagParsesTest.getTop5TagNullArray" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea9d0001-ed45-4db8-83a7-ab765a0d4d57" name="Changes" comment="" />
+      <created>1667758782301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667758782301</updated>
+      <workItem from="1667758784956" duration="663000" />
+      <workItem from="1667759834857" duration="3802000" />
+      <workItem from="1667763646947" duration="493000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chornobuk/TagParser.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chornobuk/TagParser.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chornobuk/TagParser.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chornobuk/TagParser.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="strings" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
