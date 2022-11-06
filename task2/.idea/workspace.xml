@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9d0001-ed45-4db8-83a7-ab765a0d4d57" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/main/java/com/chornobuk/ArrayFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task3/src/test/java/com/chornobuk/ArrayFilterTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="ea9d0001-ed45-4db8-83a7-ab765a0d4d57" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,6 +157,7 @@
       <workItem from="1667758784956" duration="663000" />
       <workItem from="1667759834857" duration="3802000" />
       <workItem from="1667763646947" duration="1121000" />
+      <workItem from="1667765802396" duration="317000" />
     </task>
     <servers />
   </component>

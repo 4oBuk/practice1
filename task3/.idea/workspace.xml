@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ea9d0001-ed45-4db8-83a7-ab765a0d4d57" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chornobuk/ArrayFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chornobuk/ArrayFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chornobuk/ShapeSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chornobuk/ShapeSorterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chornobuk/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chornobuk/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chornobuk/ArrayFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chornobuk/ArrayFilterTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -57,7 +59,7 @@
       <recent name="com.chornobuk" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayFilterTest.getPositiveNumbersInDescendingOrder">
+  <component name="RunManager" selected="JUnit.ShapeSorterTest.sortByVolume">
     <configuration name="ArrayFilterTest.getPositiveNumbersInDescendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
@@ -69,38 +71,6 @@
       <option name="PACKAGE_NAME" value="com.chornobuk" />
       <option name="MAIN_CLASS_NAME" value="com.chornobuk.ArrayFilterTest" />
       <option name="METHOD_NAME" value="getPositiveNumbersInDescendingOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayFilterTest.getPositiveNumbersInDescendingOrderEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chornobuk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chornobuk" />
-      <option name="MAIN_CLASS_NAME" value="com.chornobuk.ArrayFilterTest" />
-      <option name="METHOD_NAME" value="getPositiveNumbersInDescendingOrderEmptyArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayFilterTest.getPositiveNumbersInDescendingOrderNullArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chornobuk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chornobuk" />
-      <option name="MAIN_CLASS_NAME" value="com.chornobuk.ArrayFilterTest" />
-      <option name="METHOD_NAME" value="getPositiveNumbersInDescendingOrderNullArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,13 +108,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShapeSorterTest.sortByVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chornobuk" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.ShapeSorterTest" />
+      <option name="METHOD_NAME" value="sortByVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeSorterTest.sortByVolumeAlreadySortedCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chornobuk" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.ShapeSorterTest" />
+      <option name="METHOD_NAME" value="sortByVolumeAlreadySortedCollection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShapeSorterTest.sortByVolume" />
+        <item itemvalue="JUnit.ShapeSorterTest.sortByVolumeAlreadySortedCollection" />
         <item itemvalue="JUnit.ArrayFilterTest.getPositiveNumbersInDescendingOrder" />
         <item itemvalue="JUnit.ArrayFilterTest.getPositiveNumbersInDescendingOrderUnsortedArray" />
         <item itemvalue="JUnit.ArrayFilterTest.getPositiveNumbersInDescendingOrderSortedArrayWithPositiveValues" />
-        <item itemvalue="JUnit.ArrayFilterTest.getPositiveNumbersInDescendingOrderEmptyArray" />
-        <item itemvalue="JUnit.ArrayFilterTest.getPositiveNumbersInDescendingOrderNullArray" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667758782301</updated>
       <workItem from="1667758784956" duration="663000" />
-      <workItem from="1667764238092" duration="1578000" />
+      <workItem from="1667764238092" duration="2636000" />
     </task>
     <servers />
   </component>
