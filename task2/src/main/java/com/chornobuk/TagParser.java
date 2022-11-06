@@ -9,8 +9,8 @@ public class TagParser {
 
 
         Map<String, Long> popularity = new LinkedHashMap<>();
-        for (int i = 0; i < strings.length; i++) {
-            Arrays.stream(strings[i].split("[\\t]?[#]{1}"))
+        for (String string : strings) {
+            Arrays.stream(string.split("\t?#"))
                     .map(String::trim)
                     .distinct()
                     .filter(x -> !x.isEmpty())
