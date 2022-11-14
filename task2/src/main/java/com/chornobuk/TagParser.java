@@ -2,17 +2,24 @@ package com.chornobuk;
 
 import java.util.*;
 import java.util.function.Function;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class TagParser {
     public static Map<Long, String> getTop5Tags(String[] strings) {
         if (strings == null || strings.length == 0) throw new IllegalArgumentException("Array cannot be null or empty");
         Map<String, Long> popularity = new LinkedHashMap<>();
+
         for (String string : strings) {
-            Arrays.stream(string.split("\t?#"))
-                    .map(String::trim)
+            Matcher matcher = Pattern.compile("\\t*#[\\w\\p{Punct}&&[^#]]*").matcher(string);
+            List<String> tags = new ArrayList<>();
+            while (matcher.find()) {
+                tags.add(matcher.group());
+            }
+            tags.stream()
                     .distinct()
-                    .filter(x -> !x.isEmpty())
+                    .filter(x -> !x.equals("#"))
                     .forEach(x -> {
                         if (popularity.containsKey(x)) {
                             popularity.put(x, popularity.get(x) + 1);
