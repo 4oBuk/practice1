@@ -9,6 +9,7 @@ public class Cylinder extends AbstractShape {
     }
 
     public void setHeight(int height) {
+        if (height <= 0) throw new IllegalArgumentException("height cannot be negative or zero");
         this.height = height;
     }
 
@@ -17,10 +18,13 @@ public class Cylinder extends AbstractShape {
     }
 
     public void setRadius(int radius) {
+        if (radius <= 0) throw new IllegalArgumentException("radius cannot be negative or zero");
         this.radius = radius;
     }
 
     public Cylinder(int height, int radius) {
+        if (height <= 0 || radius <= 0)
+            throw new IllegalArgumentException("height and radius have to be positive numbers");
         this.height = height;
         this.radius = radius;
     }

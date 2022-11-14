@@ -4,6 +4,7 @@ public class Sphere extends AbstractShape {
     private int radius;
 
     public Sphere(int radius) {
+        if (radius <= 0) throw new IllegalArgumentException("radius cannot be negative or zero");
         this.radius = radius;
     }
 
@@ -12,6 +13,7 @@ public class Sphere extends AbstractShape {
     }
 
     public void setRadius(int radius) {
+        if (radius <= 0) throw new IllegalArgumentException("radius cannot be negative or zero");
         this.radius = radius;
     }
 

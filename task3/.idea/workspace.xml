@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea9d0001-ed45-4db8-83a7-ab765a0d4d57" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/chornobuk/ShapeSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chornobuk/ShapeSorterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chornobuk/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chornobuk/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chornobuk/ArrayFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chornobuk/ArrayFilterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chornobuk/shapes/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chornobuk/shapes/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chornobuk/shapes/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chornobuk/shapes/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chornobuk/shapes/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chornobuk/shapes/Sphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/chornobuk/ShapeSorterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/chornobuk/ShapeSorterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,75 +34,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/kostia/Documents/courses/practice1/task3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kostia/Documents/courses/practice1/task3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.chornobuk.shapes" />
       <recent name="com.chornobuk" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShapeSorterTest.sortByVolume">
-    <configuration name="ArrayFilterTest.getPositiveNumbersInDescendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
+  <component name="RunManager" selected="JUnit.SphereTest">
+    <configuration name="CubeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="PATTERN" value="com.chornobuk.shapes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chornobuk" />
-      <option name="MAIN_CLASS_NAME" value="com.chornobuk.ArrayFilterTest" />
-      <option name="METHOD_NAME" value="getPositiveNumbersInDescendingOrder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.chornobuk.shapes" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.shapes.CubeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayFilterTest.getPositiveNumbersInDescendingOrderSortedArrayWithPositiveValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
+    <configuration name="CylinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="PATTERN" value="com.chornobuk.shapes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chornobuk" />
-      <option name="MAIN_CLASS_NAME" value="com.chornobuk.ArrayFilterTest" />
-      <option name="METHOD_NAME" value="getPositiveNumbersInDescendingOrderSortedArrayWithPositiveValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayFilterTest.getPositiveNumbersInDescendingOrderUnsortedArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chornobuk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chornobuk" />
-      <option name="MAIN_CLASS_NAME" value="com.chornobuk.ArrayFilterTest" />
-      <option name="METHOD_NAME" value="getPositiveNumbersInDescendingOrderUnsortedArray" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.chornobuk.shapes" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.shapes.CylinderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,13 +122,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SphereTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chornobuk.shapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chornobuk.shapes" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.shapes.SphereTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SphereTest" />
+        <item itemvalue="JUnit.CylinderTest" />
+        <item itemvalue="JUnit.CubeTest" />
         <item itemvalue="JUnit.ShapeSorterTest.sortByVolume" />
         <item itemvalue="JUnit.ShapeSorterTest.sortByVolumeAlreadySortedCollection" />
-        <item itemvalue="JUnit.ArrayFilterTest.getPositiveNumbersInDescendingOrder" />
-        <item itemvalue="JUnit.ArrayFilterTest.getPositiveNumbersInDescendingOrderUnsortedArray" />
-        <item itemvalue="JUnit.ArrayFilterTest.getPositiveNumbersInDescendingOrderSortedArrayWithPositiveValues" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +156,10 @@
       <option name="presentableId" value="Default" />
       <updated>1667758782301</updated>
       <workItem from="1667758784956" duration="663000" />
-      <workItem from="1667764238092" duration="2636000" />
+      <workItem from="1667764238092" duration="3015000" />
+      <workItem from="1667767810681" duration="250000" />
+      <workItem from="1667812200342" duration="30000" />
+      <workItem from="1668431156924" duration="1338000" />
     </task>
     <servers />
   </component>

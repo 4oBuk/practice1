@@ -1,9 +1,10 @@
 package com.chornobuk.shapes;
 
-public class Cube extends AbstractShape{
+public class Cube extends AbstractShape {
     private int length;
 
     public Cube(int length) {
+        if (length <= 0) throw new IllegalArgumentException("length cannot be negative or zero");
         this.length = length;
     }
 
@@ -12,6 +13,7 @@ public class Cube extends AbstractShape{
     }
 
     public void setLength(int length) {
+        if (length <= 0) throw new IllegalArgumentException("length cannot be negative or zero");
         this.length = length;
     }
 
