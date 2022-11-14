@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9d0001-ed45-4db8-83a7-ab765a0d4d57" name="Changes" comment="" />
+    <list default="true" id="ea9d0001-ed45-4db8-83a7-ab765a0d4d57" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chornobuk/TagParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chornobuk/TagParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/chornobuk/TagParsesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chornobuk/TagParsesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task3/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +62,7 @@
       <recent name="com.chornobuk" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TagParsesTest">
+  <component name="RunManager" selected="JUnit.TagParsesTest.getTop5TagsFewTagsHaveSameFrequency">
     <configuration name="TagParsesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task2" />
       <extension name="coverage">
@@ -68,22 +74,6 @@
       <option name="PACKAGE_NAME" value="com.chornobuk" />
       <option name="MAIN_CLASS_NAME" value="com.chornobuk.TagParsesTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TagParsesTest.getTop5MultilineStringWithRepeatedTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chornobuk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.chornobuk" />
-      <option name="MAIN_CLASS_NAME" value="com.chornobuk.TagParsesTest" />
-      <option name="METHOD_NAME" value="getTop5MultilineStringWithRepeatedTag" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TagParsesTest.getTop5TagsFewTagsHaveSameFrequency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chornobuk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chornobuk" />
+      <option name="MAIN_CLASS_NAME" value="com.chornobuk.TagParsesTest" />
+      <option name="METHOD_NAME" value="getTop5TagsFewTagsHaveSameFrequency" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TagParsesTest.getTop5TagsOneTagMultipleTimesInOneString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task2" />
       <extension name="coverage">
@@ -138,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TagParsesTest.getTop5TagsFewTagsHaveSameFrequency" />
         <item itemvalue="JUnit.TagParsesTest" />
-        <item itemvalue="JUnit.TagParsesTest.getTop5MultilineStringWithRepeatedTag" />
-        <item itemvalue="JUnit.TagParsesTest.getTop5TagsOneTagMultipleTimesInOneString" />
         <item itemvalue="JUnit.TagParsesTest.getTop5TagsEmptyTags" />
         <item itemvalue="JUnit.TagParsesTest.getTop5Tags" />
+        <item itemvalue="JUnit.TagParsesTest.getTop5TagsOneTagMultipleTimesInOneString" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +164,7 @@
       <workItem from="1667759834857" duration="3802000" />
       <workItem from="1667763646947" duration="1121000" />
       <workItem from="1667765802396" duration="317000" />
+      <workItem from="1668432549451" duration="2014000" />
     </task>
     <servers />
   </component>

@@ -35,17 +35,17 @@ class TagParsesTest {
                 "#anime"
 
         };
-        Map<String, Long> top5Tags = new LinkedHashMap<>();
-        top5Tags.put("twitter",8L);
-        top5Tags.put("anime",5L);
-        top5Tags.put("osu!", 3L);
-        top5Tags.put("dota2",2L);
+        Map<Long, String> top5Tags = new LinkedHashMap<>();
+        top5Tags.put(8L, "twitter");
+        top5Tags.put(5L, "anime");
+        top5Tags.put(3L, "osu!");
+        top5Tags.put(2L, "dota2");
         Assertions.assertEquals(top5Tags, TagParser.getTop5Tags(tags));
     }
 
     @Test
     void getTop5TagsEmptyTags() {
-        String[] tags = new String[] {
+        String[] tags = new String[]{
                 "#   #   #java",
                 "#   #   #js",
                 "#java   #   #js",
@@ -53,12 +53,10 @@ class TagParsesTest {
                 "#java   #   #sql",
                 "#   #spring  ",
         };
-        Map<String, Long> top5Tags = new LinkedHashMap<>();
-        top5Tags.put("java",3L);
-        top5Tags.put("js",2L);
-        top5Tags.put("golang", 1L);
-        top5Tags.put("sql",1L);
-        top5Tags.put("spring",1L);
+        Map<Long, String> top5Tags = new LinkedHashMap<>();
+        top5Tags.put(3L, "java");
+        top5Tags.put(2L, "js");
+        top5Tags.put(1L, "golang,sql,spring");
         Assertions.assertEquals(top5Tags, TagParser.getTop5Tags(tags));
     }
 
@@ -77,11 +75,11 @@ class TagParsesTest {
                 "#anime"
 
         };
-        Map<String, Long> top5Tags = new LinkedHashMap<>();
-        top5Tags.put("twitter",8L);
-        top5Tags.put("anime",5L);
-        top5Tags.put("osu!", 3L);
-        top5Tags.put("dota2",2L);
+        Map<Long, String> top5Tags = new LinkedHashMap<>();
+        top5Tags.put(8L, "twitter");
+        top5Tags.put(5L, "anime");
+        top5Tags.put(3L, "osu!");
+        top5Tags.put(2L, "dota2");
         Assertions.assertEquals(top5Tags, TagParser.getTop5Tags(tags));
 
     }
@@ -109,11 +107,36 @@ class TagParsesTest {
                 "#anime"
 
         };
-        Map<String, Long> top5Tags = new LinkedHashMap<>();
-        top5Tags.put("twitter",8L);
-        top5Tags.put("anime",5L);
-        top5Tags.put("osu!", 3L);
-        top5Tags.put("dota2",2L);
+        Map<Long, String> top5Tags = new LinkedHashMap<>();
+        top5Tags.put(8L, "twitter");
+        top5Tags.put(5L, "anime");
+        top5Tags.put(3L, "osu!");
+        top5Tags.put(2L, "dota2");
+        Assertions.assertEquals(top5Tags, TagParser.getTop5Tags(tags));
+    }
+
+    @Test
+    public void getTop5TagsFewTagsHaveSameFrequency() {
+        String[] tags = new String[]{
+                "#twitter #anime #osu! #dota2 #twitter",
+                "#twitter #twitter",
+                "#twitter",
+                "#twitter",
+                "#twitter #anime #osu! #dota2 #osu!",
+                "#twitter #anime#anime",
+                "#twitter #osu!",
+                "#twitter",
+                "#anime#anime#osu!",
+                "#anime#osu!",
+                "#osu!#csgo",
+                "#osu!#csgo",
+                "#osu!#fortnite",
+        };
+        Map<Long, String> top5Tags = new LinkedHashMap<>();
+        top5Tags.put(8L, "twitter,osu!");
+        top5Tags.put(5L, "anime");
+        top5Tags.put(2L, "dota2,csgo");
+        top5Tags.put(1L, "fortnite");
         Assertions.assertEquals(top5Tags, TagParser.getTop5Tags(tags));
     }
 }
